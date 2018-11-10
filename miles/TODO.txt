@@ -1,0 +1,30 @@
+TODO
+----
+
+- Move files to Richard's github
+
+Maybe
+.....
+
+- Compare parallaxes to Lauren's cleaned parallaxes, and also the geometric distances paper (and their posteriors?)!
+- Switch to variational network (or MC dropout?) and produce estimated uncertainties around the "true" parallax. Use this with https://arxiv.org/abs/1804.10121 to calculate new geometric distances.
+- Add data from other surveys too
+- Use variational neural network so can predict error on true parallax?
+
+Questions/things for meeting
+............................
+
+- To use distance prior or not?
+    - Maybe? Should ask David Hogg.
+- To combine other datasets - for parallax?
+    - Combining PanSTARRS - works better!!
+- How to quantitatively evaluate cleaning? Do you look at another distance catalog?
+    - Richard will think about this.
+    - Lauren: maybe can just look at how far are from theoretical curve in magnitude-color space!
+
+DONE
+----
+
+- (DONE) Make side-by-side plots of before and after cleaning
+- (DONE) Add a distance prior
+    - Didn't really work well!
